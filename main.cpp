@@ -16,6 +16,11 @@ int main()
 	Time << std::put_time(std::localtime(&t), "%Y-%m-%d_%H-%M-%S");
 	std::string Save_Path = "/home/dong/Workspace/dong/DataRecord/";
 	std::string str = Save_Path + Time.str() + "/";
+	std::string str = Save_Path + Time.str() + "/";
+	std::string str = Save_Path + Time.str() + "/";
+	std::string str = Save_Path + Time.str() + "/";
+	std::string str = Save_Path + Time.str() + "/";
 	mkdir(str.c_str(), S_IRWXU);
+	
 	return 0;
 }
